@@ -1,0 +1,43 @@
+Instrutora: Elidiane
+
+Enviando e baixando alterações com o repositório remoto
+
+O que fizemos foi criar no github um novo repositório para poder enviar os arquivos da máquina (repositório local) para o servidor (repositório remoto) 
+
+adicionamos as mudanças realizadas na aula anterior com o comando 
+
+ git add .
+
+depois fizemos um commit dessa adição
+
+ git commit -m "descrição do commit"
+
+agora no terminal executamos o comando sugerido pelo site do github
+
+ git remote add origin url-do-repositório-remoto
+
+agora usamos o comando 
+
+ git push -u origin main
+
+pronto agora já possuimos no github o conteúdo que tinhamos no repositório local
+
+então fizemos diversas modificações pelo navegador no site do github, para mostrar que é possível fazer alterações no nosso projeto pelo navegador, commitamos todas essas mudançãs
+
+aprendemos também o comando para abrir uma espécie de vs code online, estando na aba código e clicando a tecla "ponto" (.)
+
+agora nesse vs code online podemos abrir o arquivo e edita-lo
+
+também podemos ver a pré-visualização de um arquivo usando o atalho
+
+ ctrl + shift + v
+
+depois de editar todas essas informações via navegador agora iremos trazer essas mudanças para o repositório local, para isso iremos usar o comando
+
+ git pull
+
+Fim da aula.
+
+
+
+ 

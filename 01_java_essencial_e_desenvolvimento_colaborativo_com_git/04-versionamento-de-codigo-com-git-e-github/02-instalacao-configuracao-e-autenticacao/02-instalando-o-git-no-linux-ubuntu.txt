@@ -1,0 +1,18 @@
+Instrutora: Elidiane
+
+Instalando o git no Linux (ubuntu)
+
+vou usar a máquina virtual para instalar o git no linux (ubuntu) e assim concluir a aula.
+
+basta usar os comandos da aula no terminal do linux
+
+primeiro comando
+sudo add-apt-repository ppa:git-core/ppa
+
+segundo comando
+sudo apt update
+
+terceiro comando
+sudo apt install git
+
+instalação concluida com sucesso.

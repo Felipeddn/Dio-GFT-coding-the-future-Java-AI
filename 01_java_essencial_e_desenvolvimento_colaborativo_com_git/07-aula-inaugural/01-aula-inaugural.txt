@@ -1,0 +1,33 @@
+Apresentador: Leonardo Medina
+
+		Aula Inaugural: coding the future GFT - Desenvolvimento Java com IA
+
+Esse é o bootcamp da GFT onde iremos aprender muita coisa de Java, alguns frameworks e banco de dados, haverá muitos desafios para chegar ao final vale a pena navegar pelas diversas abas do programa.
+
+	Atividades
+
+É a aba onde encontramos todo o aprendizado e desafio do projeto, é possível assistir as aulas, responder os questionários demonstrando a fixação do aprendizado, e resolver desafios para a prática do aprendizado.
+
+	Mentorias
+
+Local de encontro com especialistas da empresa, com boa oportunidade de aprendizado e onde é possível encontrar a parte de IA do bootcamp.
+
+	Ranking
+
+Local onde é possível ver a sua pontuação e a dos demais participantes, você pode competir com outros participantes ou competir consigo mesmo, tentando subir ranks, a pontuação do ranking consiste em uma pontuação focado no que você se desenvolve e em uma pontuação baseada no reconhecimento da comunidade sobre você. A soma dos dois é demonstrado na terceira coluna, a pontuação tem muitas casas decimais com o objetivo de desempatar, a qualidade é medida.
+
+	Fórum
+
+Um local para tirar as dúvidas e buscar ajuda diante de dificuldades, também acrescenta pontos para quem ajuda outras pessoas.
+
+	Pessoas
+
+Local para encontrar os participantes e segui-los caso deseje.
+
+	Certificados
+
+Um local que possibilita o acesso a todos os certificados.
+
+	Curriculo
+
+Esse bootcamp não tem por objetivo abrir uma grande janela de contratação, mas a plataforma permite você se desenvolver e deixar um currículo pronto para você poder arrumar um trabalho, também é possível ver vagas e seus requisitos permitindo você se orientar para se desenvolver e obter uma vaga no mercado de trabalho.	

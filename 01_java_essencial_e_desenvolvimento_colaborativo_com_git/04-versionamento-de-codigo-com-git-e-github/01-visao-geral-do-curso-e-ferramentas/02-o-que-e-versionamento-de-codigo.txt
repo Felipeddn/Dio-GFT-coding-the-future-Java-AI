@@ -1,0 +1,10 @@
+Instrutora: Elidiane
+
+O que é versionamento de código?
+
+Os sistemas de controle de versão surge para possibilitar o trabalho de duas ou mais pessoas em um projeto de software, e esses software de versionamento de código cumpre diversas tarefas como:
+
+registra o histórico de atualizações de um arquivo;
+Gerencia quais foram as alterações, a data, autor, etc.;
+Organização, controle e segurança.
+

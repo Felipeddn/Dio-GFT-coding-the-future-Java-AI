@@ -1,0 +1,91 @@
+Instrutora: Elidiana
+
+Salvando alterações no repositório local
+
+criamos um diretório e iniciamos o git dentro desse diretório, isso já foi visto em aulas anteriores
+
+ mkdir nome-do-diretório
+
+ git init
+
+um novo comando da aula foi o 
+
+ git status
+
+o comando git status mostra nossa arvore de trabalho e também mostra a situação dos nossos arquivos.
+
+mano a voz dessa menina é enjoativa.
+
+usando o comando git status podemos verificar que o arquivo que criamos está como untracked files ou seja, é um arquivo em que o git não está "vigiando".
+
+O README é uma especie de cartão de visitas do projeto, que pode ter varios elementos textuais e visuais para explicar o projeto, markdown é uma linguagem de marcação que entrega uma possibilidade variada de edições para que um documento seja belo ao ser visualizado.
+
+link da documentação para usar markdown
+https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
+
+link do site usado para escrever em markdown pela elidiane
+
+readme.so/pt/editor
+
+atalho para abrir emoji no windows
+
+ botão windows + .
+
+Depois que adicionamos nosso arquivo com o comando
+
+ git add nome-do-arquivo
+
+agora podemos ver o status do arquivo com o comando
+
+ git status
+
+e podemos verificar que o arquivo pode ser "commitado", ou seja, podemos salvar ele.
+
+para fazer isso usamos o comando
+
+ git commit -m "uma descrição do que estamos salvando"
+
+e depois podemos usar o comando 
+
+ git log
+
+para visualizar o commit que realizamos
+
+e para finalizar podemos usar o comando 
+
+ git status
+
+para analizar se falta algo para ser salvo.
+
+aparecendo a mensagem "nothing to commit", isso signfica que não precisamos salvar nada e que está tudo ok.
+
+existem arquivos ou pastas e seus respectivos arquivos que provalvelmente não devemos enviar para o repositório remoto, ou que não queremos enviar para o repositório remoto, uma forma de fazer isso é usar um arquivo .gitignore
+
+faremos o seguinte, criaremos uma pasta vazia e depois uma pasta com um arquivo para testar alguns conceitos git, o primeiro é o conceito de que o git não reconhece uma pasta vazia, o segundo é de como incluir uma pasta no git ignore
+
+comando para criar pasta vazia
+
+ mkdir resumos
+
+com o comando ls podemos ver a pasta resumos, porem com o comando git status ele não é reconhecido
+
+agora vamos inserir um arquivo dentro desse diretório como o comando
+
+ touch resumos/resumo-aula1.md
+
+agora vamos inserir a pasta resumos dentro do nosso git ignore com o comando 
+
+echo .gitignore > resumos/
+
+Um outro recurso utilizado para que pastas vazias sejam reconhecidas é inserir um arquivo de extensão chamada .gitkeep, vamos criar uma pasta e inserir esse arquivo.
+
+ mkdir aulas
+
+ touch aulas/.gitkeep
+
+Para adicionar mais de um arquivo com o git add basta inserir um ponto no comando, veja
+
+ git add .
+
+fim da aula
+

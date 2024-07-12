@@ -1,0 +1,3 @@
+instalando o intellij
+
+com o intellij foi mais tranquilo, mas ele sinalizou a inexistência de um jdk 17, achei estranho já que segui o passo a passo para instalar a versão 17 que o Gleyson indicou.

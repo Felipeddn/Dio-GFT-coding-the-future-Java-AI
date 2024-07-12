@@ -1,0 +1,38 @@
+Instrutora: Elidiane
+
+O que é o Git?
+
+O git é:
+
+Sistema de controle de versão distribuído
+
+Gratuito e Open Source (código  aberto);
+trabalha com ramificações (branching) e fusões (merging) eficientes;
+ele é leve e rápido.
+
+https://git-scm.com/
+
+através do link é possível conhecer a documentação do git
+
+quando existe uma versão de um arquivo em um banco de versões remoto de um servidor, podemos copiar ele do servidor para um diretório local através do comando:
+
+ git clone 
+
+a partir do momento que há alterações locais do arquivo gravado no diretório, para salvar essas mudanças é necessário usar o comando
+
+ git commit
+
+Esse comando grava essas alterações em um banco de versões local, na maquina do usuários que executou essas mudanças
+
+ Para atualizar o seu banco de versões local antes de enviar suas mudanças para o banco de versões remotos basta usar o comando
+
+ git pull
+
+Ele atualiza a versão local com as mudanças guardadas no servidor remoto.
+
+Com o repositório local devidamente atualizado é possível enviar suas mudanças do banco de versões local para o banco de versões remoto através do comando
+
+ git push
+
+Esse comando "empurra" as alterações do repositório local para o repositório remoto.
+

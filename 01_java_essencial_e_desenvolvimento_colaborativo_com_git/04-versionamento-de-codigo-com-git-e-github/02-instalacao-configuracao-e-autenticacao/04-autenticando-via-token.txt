@@ -1,0 +1,102 @@
+Instrutora: Elidiane
+
+Autenticando via token
+
+As vantagens de autenticar por token é
+
+1- unico: tokes são especificos para o github e podem ser gerados por uso ou por dispositivo.
+
+2- revogavel - tokens podem ser revogados individualmente a qualquer hora sem necessidade de atualizar credenciais.
+
+3 - limitados - tokens podem ser direcionados para um escopo que permite apenas o acesso necessario para um caso específico.
+
+4 - aleatório - tokens não são sujeitos a dicionários ou ataques de força bruta como uma simples palavra chave que precisa ser lembrada para entrar customa ser.
+
+então para testar essa autenticação vamos no Github:
+
+criar um repositório
+
+nomeie o repositório
+
+escolha a opção privado
+
+adicione um "Read-me"
+
+Vamos tentar clonar esse repositório sem estar autenticado
+
+para isso aperte o botão "code" no repositório que acabou de ser criado, deixe a opção "https" selecionado e copie a url que aparece
+
+No GitBash no diretório já selecionado
+
+use o comando
+ git clone url-copiado-do-github
+
+no meu funcionou numa boa, acredito que por já ter assistido essa aula já criei o token
+
+Para criar o token
+
+clicar no canto superior direito na imagem de usuário do github
+
+escolher no menu a esquerda no fim a opção "developer settings"
+
+no menu a esquerda escolher a opção "personal acess tokens"
+
+escolher tokens(classic)
+
+no botão no lado direito do titulo "personal acess tokens (classic)" clicar em "generate new token" e depois em "generate new token (classic)"
+
+em notas coloque a justificativa do token para facilitar seu uso.
+
+escolha o período de validade do token e as permissões e escopos desse token
+
+clique em "generate token" no fim da página e copie esse token
+
+no Git
+agora sim executamos o 
+ git clone url-do-repositório-no-github
+
+colocamos o nome de usuário
+
+colocamos o token no password solicitado e pronto o clone será realizado
+
+agora podemos salvar esse token para facilitar o acesso futuramente a esse repositório.
+
+para isso usamos o comando
+
+ git config credential.helper cache 
+
+esse comando é para quem compartilha a maquina de trabalho com outros colegas.
+
+ git config credential.helper store
+
+para quem não compartilha a máquina de trabalho com outros colegas.
+
+ git config --globar credential.helper store 
+
+para salvar em um escopo de usuário
+
+Para visualizar nossos tokens criados, clicamos no canto superior direito na imagem de usuário do github
+
+selecionamos settings
+
+selecionamos developer settings
+
+personal acess tokens > tokens (classic)
+
+apos selecionar essa opção os tokens criados ficarão disponíveis e poderam ser deletados caso seja desejado isso.
+
+para saber sobre qual helper utilizamos para salvar nossa credencial utilizamos o seguinte comando
+
+ git config --global credential.helper
+
+utilizei esse comando e não houve retorno nenhum.
+
+comando git para saber onde nossas configurações estão salvas
+
+ git config --global --show-origin credential.helper
+
+para mim ele não retornou nada também.
+
+O token não foi solicitado porque eu já havia feito credenciais, e para modificar isso preciso remover essas credenciais do windows no "gerenciar credenciais do windows"
+
+Fim da aula

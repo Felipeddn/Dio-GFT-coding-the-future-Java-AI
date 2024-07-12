@@ -1,0 +1,16 @@
+Instrutora: Elidiane
+
+Instalando e configurando o git no windows, e autenticando o Github via token e Chave SSH
+
+página de download do git
+git-scm.com/downloads
+
+escolha o sistema operacional windows, já que esse é o tutorial do windows.
+
+escolhido o sistema operacional escolha "click here to download" 
+
+Depois de realizado o download faça a instalação do git.
+
+ git init 
+inicia um repositório git, com o nome main caso isso tenha escolhido na instalação ou configurado pós instalação.
+

@@ -1,0 +1,55 @@
+Instrutora: Elidiana
+
+Desenvolvendo uma contribuição
+
+1. Faça um Fork deste repositório;
+
+2. Clone localmente: 
+
+ git clone https://github.com/SEUUSERNAME/dio-lab-open-source.git;
+
+3. Adicione o remote upstream para manter seu repositório local atualizado: 
+
+ git remote add upstream 
+
+https://github.com/elidianaandrade/dio-lab-open-source.git;
+
+utilize o comando 
+
+ git pull upstream main 
+
+para baixar e mesclar as alterações no seu repositório local com base na branch main deste repositório original de onde você fez o fork, ou 
+
+ git fetch upstream main
+
+para baixar e mesclar. veja mais em primeiros passos com git e github.
+
+4. Crie uma nova branch e nomeie com feat/community/seunomedeeusuario;
+
+5. dentro da pasta community, crie um arquivo markdown (extensão .md) e nomeie com o mesmo nome do seu usuário no github
+ exemplo: elidianaandrade.md
+
+6. Desenvolva o seu perfil. Para isso você pode ver exemplos na pasta community e adicionar alguns dos uitlitários presentes na pasta utils;
+observação use os outros como inspiração e não cópia
+
+7. Adicione suas alterações á "staging area" com o comando
+
+ git add community/seunomedeusuario.md
+
+8. Crie um commit e adicione a mensagem indicando a adição do seu perfil
+
+ git commit -m"feat: add seunomedeusuario profile";
+
+9. Envie as alterações para o seu repositório remoto
+
+ git push origin feat/community/seunomedeusuario;
+
+10.Crie um pull request
+
+
+	Como sair do modo de visualização estranha dos commits
+novamente apertei algum botão que entrou em um modo de visualização dos commits e para sair basta apertar a letra q
+
+percebi que ao usar o comando git log eu entro nesse modo.
+
+Fim da aula.

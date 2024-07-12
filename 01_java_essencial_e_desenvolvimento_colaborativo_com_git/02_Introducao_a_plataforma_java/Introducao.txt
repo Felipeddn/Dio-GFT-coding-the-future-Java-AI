@@ -1,0 +1,42 @@
+* Introdução e objetivos
+
+Gleyson Sampaio - instrutor Java
+
+O que é o Java
+
+É uma linguagem simples
+É orientado a objetos, quase tudo em Java são classes.
+
+Pilares da orientação a objetos:
+1. Classe e objeto
+2. Encapsulamento
+3. Abstração
+4. Herança
+5. Polimorfismo
+
+É uma plataforma independente
+Java é feito para funcionar em quase todos os computadores que existem, por exemplo: microondas, smartwatchs, computadores, celulares...
+
+Tudo em Java é bytecode
+
+Portátil
+
+O Bytecode é para funcionar em qualquer hardware por conta do interpretador Java e da JVM (Java Virtual Machine)
+
+Java é uma linguagem robusta.
+
+Ela usa uma memória forte.
+Java fornece coleta de lixo automático
+Há tratamento de exceção e mecanismo de verificação de tipo.
+
+Java é Segura.
+
+possui criptografia para proteger contra espionagem e adulteração na internet.
+
+Java é interpretada.
+
+Java usa compilador e interpretador. ao contrário das demais linguagem que são compiladas ou interpretadas.
+
+Java é Multi-thread
+
+O java executa diversos tarefas pequenas ao mesmo tempo, entregando alta performance.

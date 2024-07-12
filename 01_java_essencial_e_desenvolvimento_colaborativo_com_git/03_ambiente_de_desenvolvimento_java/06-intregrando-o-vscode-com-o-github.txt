@@ -1,0 +1,17 @@
+Github
+
+Faltou ensinar como criar um github.
+
+através do github podemos representar nosso engajamento com diversas linguagens de programação.
+
+repositórios do github é uma forma de poder armazenar e compartilhar nossos projetos.
+
+Nesse curso a IDE utilizada será o VS Code.
+
+no vs code o gleyson usa muito o atalho 
+ctrl + shift + p, para executar diversas tarefas.
+
+Esse jeito de abordar o git integrado com o vs code abstrai muito e deixa a pessoa totalmente leiga no git.
+
+Seria melhor ele atuar usando o atalho crtl + J e usar o git bash para fazer os comandos e depois ensinar esse atalho pela IDE, a qualidade do curso caiu muito nesse sentido, o Github e o Git é tratado como algo muito periférico no curso, o que lamentavelmente tira toda a importância que essas ferramentas tem.	
+

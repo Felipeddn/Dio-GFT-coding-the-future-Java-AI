@@ -1,0 +1,55 @@
+Instrutora: Elidiane
+
+Trabalhando com branches, comandos úteis no dia a dia
+
+Exclarecimento sobre o comando 
+
+ git pull = git fetch + git merge
+
+o comando git fetch trás para a máquina as alterações do repositório remoto sem juntar com o arquivo do repositório local, o comando git merge junta os conteúdos, as mundanças em um só arquivo. será usado o comando git fetch para trazer as mudanças do repositório remoto para o repositório local
+
+ git fetch origin main
+
+enquanto estava digitando no terminal aconteceu algo curioso, apertei ">" e ele entrou meio que em um modo de visualização onde eu não consegui sair de forma alguma, depois de pesquisar no google descobrir que para sair dessa opção é necessário apertar a letra "q".
+
+o próximo comando executado foi
+
+ git diff main origin/main
+
+esse comando mostrou o que de novo continha no arquivo que trouxemos com o comando gitt fetch origin main.
+
+agora para mesclar as mudanças que foram trazidas do repositório remoto com o nosso repositório local usamos o comando 
+
+ git merge origin/main
+
+Agora vou aprender o comando que permite eu copiar apenas uma branch quando houver diversas branchs no repositório remoto.
+
+ git clone url-do-repositório --branch nome-da-branch --single-branch
+
+agora a partir da branch de teste, iremos fazer uma modificação nela, mas queremos criar uma nova branch sem levar a última modificação para essa nova branch, então usamos o comando
+
+ git stash
+
+e depois de realizado esse comando usamos o comando para criar uma nova branch
+
+ git checkout -b teste-2
+
+Agora para trocar de branch usamos o comando 
+
+ git checkout teste
+
+o comando 
+
+ git stash list
+
+mostra as modificações que salvamos(arquivamos) com o comando stash.
+
+nessa branch podemos fazer duas coisas, descartar a nossa modificação da lista de stash com o comando
+
+ git stash pop
+
+ou trazer a modificação com o comando 
+
+ git stash apply
+
+Fim da aula.

@@ -1,0 +1,50 @@
+Instrutora: Elidiane 
+
+Configurando o Git
+
+Para mudar a aparencia do git basta no terminal apertar o "botão direito" e ir em "options"
+
+no terminal do git bash, basta digitar o 
+ git config 
+para poder ver as opções de configurações que podemos fazer.
+
+podemos configurar de forma que a alteração gerada por essa configuração seja a nível de 
+usuário 
+ git config --global
+
+sistema
+ git config --system
+
+local (pasta, diretório) atual
+ git config --local
+
+no caso iremos usar comandos no terminal para configurar 
+
+nome de usuário no nível global
+ git config --global user.name "nome do usuário entre aspas para salvar"
+
+email do usuário no nível global
+ git config --global user.email "email do usuário entre aspas para salvar"
+
+agora para verificar
+o nome do usuário
+ git config user.name
+
+o email do usuário
+ git config user.email
+
+para descobrir o nome padrão dá para o diretório principal na criação de um diretório git com o comando 
+ git init
+usamos o comando 
+ git init.defaultBranch
+
+para alterar o nome padrão das branchs criadas usamos o comando
+ git config --global init.defaultBranch main
+
+Para ver todas as nossas configurações basta usar o comando
+git config --list
+
+para ver a configuração em um contexto especifico
+git config --global --list
+
+Fim da aula.

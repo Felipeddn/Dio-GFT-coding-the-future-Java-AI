@@ -1,0 +1,93 @@
+Instrutora: Elidiane
+
+autenticando via chaves SSH
+
+as chaves ssh é uma forma criptografada de autenticar comunicação via computador local e servidores.
+
+Para configurar essa forma de autenticação utilizamos o seguinte caminho
+
+ No Github
+no canto superior direito na imagem de usuário clicar e escolher a opção settings;
+
+no menu a esquerda na categoria "acess" selecionamos a opção "SSH and GPG keys"
+
+Em "SSH keys" haverá a opção generating SSH keys, clique nela, que abrirá um link.
+
+procure a opção "verificar se há chaves SSH"
+
+Chave SSH é um tipo de protocolo de comunicação entre dois computadores, onde duas chaves são criadas, uma publica e outra privada, e essas chaves são utilizadas para garantir a integridade e segurança das informações trocadas.
+
+para saber se temos esse tipo de chave na máquina basta usar o comando que está na documentação no terminal gitbash 
+
+ls -al ~/.ssh
+
+para mim não houve retorno indicando que não possuo esses tipos de chaves.
+
+link para uso da chave ssh
+https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+procuramos no tutorial a opção "gerando uma nova chave ssh e adicionando-a ao agente SSH"
+
+para isso basta executar os comandos
+
+ ssh-keygen -t ed25519 -C "your_email@example.com"
+
+substitua "your_email@example.com" pelo seu email.
+
+após executar esse comando será solicitado a criação de uma senha.
+
+crie uma senha
+
+agora para guardar de forma segura essa chave privada gerada será usado um programa, o ssh-agent, que armazenará essa chaves de forma segura, para isso iniciamos o programa com o comando
+
+ eval "$(ssh-agent -s)"
+
+depois usamos o comando que irá mostrar para o agente onde fica a chave privada.
+
+ ssh-add ~/.ssh/id_ed25519
+
+para isso ele pede a senha para executar essa ação
+
+agora que está tudo feito no sistema passamos nossa chave pública para o Github.
+
+No GitHub
+
+clicamos na imagem do perfil no canto direito superior escolhemos a opção "settings"
+
+na categoria "access" escolhemos a opção "ssh and gpg keys"
+
+clicamos no botão "new SSH keys"
+
+nessa nova página será solicitado um titulo (title) colocamos um titulo que descreva a origem da chave, por exemplo, meu pc windows, meu pc linux, meu laptop mac, algo do tipo.
+
+em "key type" escolhemos o tipo de chave correspondente a nossa chave
+
+no caso foi escolhida "Authentication key"
+
+No campo "Key"
+
+colamos nossa chave publica
+
+para inserir essa chave no GitBash fazemos o comando
+
+ cd ~/.ssh
+
+Dentro da pasta onde está armazenado a chave usamos o comando para listar a chave
+
+ ls
+
+a chave publica tem extensão ".pub"
+
+usamos o comando para copiar o conteúdo da chave.
+
+ cat id_ed25519.pub
+
+copie o conteúdo que foi mostrado e cole ele na area "key" do github, depois de copiado aperte o botão "add SSH key", autentique a ação pelo formato de autenticação de duas etapas.
+
+Para verificar se deu certo o procedimento vamos clonar um repositório de nossa máquina.
+
+clicamos na imagem de usuário no canto superior direito e escolhemos a opção "your repository", escolhemos um repositório e clicamos em "code", clicamos em um ssh e copiamos o link.
+
+fim da aula
+
+

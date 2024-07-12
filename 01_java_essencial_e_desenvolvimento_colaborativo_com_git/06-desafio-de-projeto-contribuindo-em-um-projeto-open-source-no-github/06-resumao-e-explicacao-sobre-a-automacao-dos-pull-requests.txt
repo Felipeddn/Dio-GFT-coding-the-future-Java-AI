@@ -1,0 +1,17 @@
+Instrutor: Venilton JR.
+
+		Resumão e explicação da automação dos pull requests
+
+Este vídeo é para ajudar quem está com dificuldade nos pull requests do desafio do projeto.
+
+Como será a dinâmica na hora de entregar o projeto.
+
+Basta seguir a orientação da Elidiane para fazer de forma correta.
+
+Fiz pelo Github mesmo, achei melhor, realmente eu tive que renomear meu arquivo, estava com letra minúscula e tive que deixar com letra maiúscula.
+
+No meu caso não aparece o botão compare & pull request.
+
+Manoooo, que felicidade, só de mudar o nome do meu arquivo ele aceitou e incluiu no dio lab. Perfeito, amei esse desafio.
+
+Fim de aula.

@@ -1,0 +1,35 @@
+Instrutora: Elidiana
+
+		DICAS E MATERIAIS DE APOIO
+
+Encontre projetos do seu interesse e adicione ao seu portfólio indicando a forma como contribuiu;
+
+Participe da comunidade e desenvolvam juntos;
+
+Conheça e respeite o padrão do projeto que for contribuir;
+
+Bônus: Como editar arquivos pelo GitHub.
+
+	Bônus: editando arquivo pelo GitHub
+
+Crie uma branch "teste" direto no GitHub
+
+para adicionar um novo arquivo aperte no botão "add file" e "create new file" e inserir o nome da pasta "community/" e por fim o nome do arquivo com a extenção "felipeddn2.md"
+
+Através do botão "Preview" podemos visualizar antes de salvar como será visualizado nosso arquivo.
+
+Devemos adicionar um commit na parte inferior da página seguindo o padrão recomendado pelo projeto.
+
+"feat: add felipeddn2 profile"
+
+podemos deixar a descrição sem comentar.
+
+podemos inserir o arquivo também direto pela pasta final, sem indicar o caminho, apenas inserindo o arquivo e a extensão do arquivo.
+
+podemos usar o editor para configurar nosso arquivo usando o atalho ao apertar a tecla "." do teclado do dispositivo.
+
+Para adicionar commit no vs code basta reparar no icone do canto esquerdo da tela númerado, clicar no icone, clicar no botão "+" do arquivo sinalizado, digitar na caixa de texto o nosso commit e digitar no botão "commit & push".
+
+Em caso de dúvidas, usar Fórum/ Artigos da DIO ou usar a comunidade online no Discord.
+
+Fim da aula.

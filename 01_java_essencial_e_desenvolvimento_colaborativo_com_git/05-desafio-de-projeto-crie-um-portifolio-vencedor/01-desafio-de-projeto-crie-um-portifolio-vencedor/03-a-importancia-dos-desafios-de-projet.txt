@@ -1,0 +1,15 @@
+Instrutor: Venilton Falvo Jr.
+
+A importância dos desafios de projetos na prática
+
+Labs - desafios
+
+Todo desafio sempre será publicado no Github.
+
+Quando você dá um fork de um projeto de alguém do github, você passa a ter no seu usuário aquele projeto.
+
+O link que submetemos na plataforma do DIO é o link do fork do projeto em nosso usuário.
+
+na hora de entregar o link a descrição tem muita relevância.
+
+Fim da aula.

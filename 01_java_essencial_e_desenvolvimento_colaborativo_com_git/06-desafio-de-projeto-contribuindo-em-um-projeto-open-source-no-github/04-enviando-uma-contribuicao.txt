@@ -1,0 +1,15 @@
+Instrutora: Elidiana
+
+		Enviando uma contribuição
+
+Podemos analisar no github, depois que fizemos o commit, que possuimos duas branch e também podemos visualizar a quantidade de commits a frente ou atrás do repositório que fizemos o fork.
+
+https://github.com/Felipeddn/dio-lab-open-source
+
+vamos usar o botão "compare & pull request"
+
+Link para visualizar se o perfil foi incluído no projeto
+
+https://digitalinnovationone.github.io/dio-lab-open-source/#comunidade
+
+Fim da aula.

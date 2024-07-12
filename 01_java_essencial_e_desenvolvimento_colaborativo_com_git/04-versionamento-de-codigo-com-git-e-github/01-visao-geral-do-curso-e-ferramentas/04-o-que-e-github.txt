@@ -1,0 +1,42 @@
+Intrutora: Elidiane
+
+O que é github?
+
+É uma plataforma de hospedagem de código para controle de versão com Git, e colaboração.
+
+o github possui:
+
+Comunidade ativa
+Mascot "Octocat"
+
+O github é uma ferramenta utilizada mundialmente.
+
+Git e Github são ferramentas distintas.
+
+Mão na massa
+
+https://github.com/
+
+Criaremos nossa conta, eu já possuo.
+
+https://github.com/Felipeddn
+
+Criando a autenticação de dois fatores (2FA - Two factor authentication
+
+clique no seu icone no canto superior direito
+selecione settings
+
+selecione no menu do lado esquerdo, password and authentication
+
+procure no fim da tela o botão "enable two-factor authentication"
+
+ao clicar no botão ele pediu uma senha, porém no vídeo da elidiane já apareceu uma etapa a frente, então não é possível dizer se para ela pediu o password ou não para fazer essa etapa. Provavelmente sim porem ela cortou essa etapa.
+
+colocando a senha entramos na etapa "setup authenticator app" onde devemos escolher uma aplicativo para fazer a autentificação, o aplicativo sugerido pela Elidiane é o microsoft authenticator
+
+https://www.microsoft.com/en-us/security/mobile-authenticator-app
+
+opinião: achei horrivel autenticar fora do computador, agora meu laptop ficou preso ao meu celular e perdeu a principal funcionalidade dele, ser móvel e independente.
+
+depois de instalar o aplicativo basta ler o qe code adicionar a conta no aplicativo de autenticação e usar o número para preencher no campo de código abaixo da imagem do QR code.
+

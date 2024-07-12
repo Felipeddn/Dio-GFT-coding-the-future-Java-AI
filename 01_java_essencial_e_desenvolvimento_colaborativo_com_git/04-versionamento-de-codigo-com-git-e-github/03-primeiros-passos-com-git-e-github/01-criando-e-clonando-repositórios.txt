@@ -1,0 +1,88 @@
+Instrutora: Elidiane
+
+criando e clonando repositórios
+
+Existem duas formas de obter um repositório git na sua máquina: 
+
+1- transformando um diretório local que não está sob controle de versão, num repositório Git;
+
+2- clonando um repositório Git existente com o comando git clone.
+
+vamos aprender primeiro a criar um repositório git a partir de um diretório local (em nossa máquina)
+
+primeiro criamos o diretório digitando no gitbash o comando:
+
+ mkdir repo-local
+
+entro nesta pasta com o comando
+
+ cd repo-local
+
+agora usamos o comando para inicializar o git
+
+ git init
+
+Quando usamos esse comando olhando para a pasta não é possível localizar nenhum arquivo, porém no terminal é possível localizar os arquivos e por conta disso foi realizado os seguintes comandos
+
+no terminal
+
+ ls
+
+para listar os arquivos, depois foi copiado o caminho do gitbash, para o explorador de arquivos, onde foi possível visualizar os arquivos do git, dentro desse diretório no terminal foi realizado alguns comandos para vizualizar alguns arquivos para titulo de conhecimento
+
+ cat config
+
+usando esse comando foi possível visualizar as configurações que o git gerencia.
+
+iremos clonar do repositório remoto com o comando
+
+ git clone url-do-repositório
+
+se ao clonar a pessoa desejar mudar o nome ele pode usar o seguinte comando.
+
+ git clone url-do-repositório nome-desejado
+
+faça o caminho até o repositório clonado pelo terminal usando os comando 
+
+ cd nome-da-pasta
+
+ou 
+ 
+ cd ..
+
+para subir uma hierarquia nas pastas.
+
+nosso desejo é chegar no diretório .git para usar o comando
+
+ cat config
+
+a diferença entre os dois arquivos config é a configuração adicional presente no config do repositório clonado do servidor
+
+uma configuração remote e uma configuração sobre a branch
+
+além disso podemos verificar a existência ou não dessas configurações com o comando
+
+ git remote -v
+
+então para adicionar essa configuração, usamos o comando 
+
+ git remote add origin url-do-repositório-criado-no-github
+
+ele passa a ter uma configuração "remote" mas ainda não possui uma configuração branch.
+
+Ainda sobre branch, as vezes não precisamos copiar todo o repositório remoto para nossa máquina, podemos apenas copiar uma branch para trabalho especifico, o comando que devemos executar no terminal para isso é:
+
+ git clone url --branch nome-da-branch --single-branch
+
+se não for informado o nome da branch ele copia a branch main ou master
+
+Agora no github para criar um repositório remoto basta ir na opção "your repository" e procurar o botão "new"
+
+os campos que precisamos preencher ficam destacado com um asterisco vermelho
+
+ao criar um novo repositório ele não pode ser um nome que já damos a um repositório que existe em nossa conta.
+
+Fim da aula.
+
+
+

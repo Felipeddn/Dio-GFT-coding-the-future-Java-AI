@@ -1,0 +1,15 @@
+Instrutora do curso: Elidiana Andrade (eli)
+
+Desenvolvedora Front-End
+
+Versionamento de código com Git e Github
+
+Objetivo Geral do Curso
+
+introduzir ao versionamento de código com Git e Github.
+
+- conhecer as ferramentas
+- Instalar, configurar e autenticar
+- Primeiros passos com Git e Github
+- Dicas e materiais de apoio
+

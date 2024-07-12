@@ -1,0 +1,13 @@
+Instalando o Eclipse
+
+O Gleyson iniciou instalando o JDK Java e depois ele instalou a IDE Eclipse.
+
+O Gleyson recomenda a procura de atalhos para usar na IDE e aumentar a produtividade.
+
+O Gleyson não recomenda o uso do workspace para a criação de um projeto java no Eclipse, ele criou um caminho assim:
+c:\dev\projetos\aula-ide
+no meu caso vou criar na pasta de estudo mesmo.
+
+Não consegui criar um projeto no eclipse, sinal que essa IDE não facilita nada.
+
+Odiei essa aula, eu já tinha o eclipse e não funcionou o passo a passo dele.

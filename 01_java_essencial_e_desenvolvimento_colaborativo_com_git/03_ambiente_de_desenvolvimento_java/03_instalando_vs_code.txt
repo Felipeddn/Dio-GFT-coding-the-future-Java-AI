@@ -1,0 +1,7 @@
+O uso do Visual studio code é incentivado pela quantidade de facilidades que essa ferramenta traz, como uma vasta coleção de plugin (extensões), a facilidade e integração de uso dessa IDE com git e github além de seu uso com outras linguagens como node.js e para programação em front-end, por fim é possível realizar documentações markdown e escrever diversas coisas como anotações utilizando o VS code, que é uma ferramenta poderosa!
+
+Começar um projeto do zero
+Basta usar o atalha ctrl + shift + p 
+escolher a opção sem ferramente de construção (no build tool)
+escolher o diretório onde será salvo o projeto
+escolher o nome do projeto

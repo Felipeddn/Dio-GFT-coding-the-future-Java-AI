@@ -1,0 +1,21 @@
+Instrutora: Elidiane
+
+Contribuindo em um projeto open source no Github
+
+Objetivo do nosso lab é aprender o básico sobre contribuição no Github.
+
+	Pré-requisito
+
+Noções básicas de git e github
+
+	Percurso
+
+Introdução ao Lab
+
+Formas de Contribuir em um projeto Open Source
+
+Desenvolvendo e Enviando uma Contribuição
+
+Dicas e materiais de apoio
+
+Fim da aula

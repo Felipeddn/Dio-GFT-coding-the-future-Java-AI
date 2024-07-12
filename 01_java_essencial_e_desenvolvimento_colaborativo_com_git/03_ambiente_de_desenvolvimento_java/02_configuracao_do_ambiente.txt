@@ -1,0 +1,23 @@
+Configurando o ambiente
+O Java possui o JDK (Java Development Kit - pacote de desenvolvimento Java) e a JRE (Java Runtime Enviroment - Ambiente de execução Java) 
+
+Para desenvolver em Java precisamos do JDK instalado. Esse JDK tem uma versão é importante saber escolher a versão da IDE.
+
+Instalar o JDK manualmente exige certa compreensão de variáveis de ambiente, no primeiro momento o facilitador deixou claro que não iremos nos preocupar com isso, pois as IDEs irá nos facilitar em relação a isso.
+
+atalho para abrir o prompt de comando
+podemos ver nossa versão de Java através do comando:
+Tecla windows + R
+escreva CMD e aperta enter
+na tela escreva
+java -version
+pronto irá aparecer as informações caso exista uma variável de ambiente Java configurado.
+
+o meu informou que estou na versão 11 e o Gleyson informou que a versão que será usada é a 8 por conta disso tive que visualizar esse artigo que ensina como mudar as versões dos JDKs instalados na maquina
+
+url do artigo
+https://www.dio.me/articles/como-gerenciar-varias-versoes-do-java-opcoes-e-consideracoes
+
+link da documentação do Java 8
+https://docs.oracle.com/javase/8/docs/
+

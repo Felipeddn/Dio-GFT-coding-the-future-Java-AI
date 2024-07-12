@@ -1,0 +1,91 @@
+Instrutora: Elidiane
+
+Desfazendo alteração no repositório local
+
+Vamos aprender a corrigir algumas situações como, corrigir um git init em uma pasta errada, corrigir a inclusão de um documento errado em um commit, corrigir uma alteração indesejada em um arquivo.
+
+vamos começar pela correção de um comando git init sem querer, ou em uma pasta errada. para isso basta excluir o diretório .git/
+
+no terminal (gitbash)
+
+ git init 
+
+agora para excluir a pasta .git/ esse comando serve para excluir qualquer pasta que você deseja.
+
+ rm -rf .git
+
+e por fim usamos o git status para verficar se o comando deu mesmo certo
+
+ git status
+
+Agora iremos restaurar um arquivo que apagamos seu conteúdo. Para isso basta usar o comando
+
+ git restore nome-do-arquivo-que-sera-restaurado
+
+Esse comando também descarta todas as alterações realizadas no documento, então é preciso cautela na hora de utiliza-lo.
+
+Agora o comando que iremos aprender é para corrigir a descrição de um commit, assim podemos descrever melhor o que foi mudado no arquivo.
+
+primeiro vamos ver a descrição do nosso commit com o comando
+
+ git log
+
+agora podemos alterar nossa descrição com o comando
+
+ git commit --amend -m "Descrição-nova-do-commit"
+
+por fim usamos o commando git log para verificar se ouve mudança no commit
+
+outra forma de fazer o comando anterior é usando o comando
+
+ git commit --amend
+
+Nesse caso sem a "flag" -m o comando irá abrir o editor Vim, prefiro o nano, lembra na hora de instalar que escolhemos essa opção, então é para isso que escolhemos um editor diferente, mas voltando, no meu caso ele abriu o vs code (amei) e agora é só alterar a frase!
+
+tudo certo, não tive que aprender a usar o vim, mas os comandos que usamos no Vim são.
+
+ aperte "i" para poder inserir informações
+
+ para sair usamos "esc"
+
+ :w para sair.
+
+Agora vamos fazer um comando que exclui o ultimo commit que fizemos
+
+ git reset --soft
+
+ git reset --mixed
+
+ git reset --hard
+
+No primeiro caso iremos usar o comando git reset --soft, para isso precisamos copiar o código hash do commit
+
+ git reset --soft codigo-hash-do-commit
+
+Agora criamos um commit a mais para poder trabalhar as opções mixed e hard
+
+ git reset hash-do-commit
+
+ou
+
+ git reset --mixed hash-do-commit
+
+queria saber o atalho que ela faz para copiar o hash do commit.
+
+Esse comando pega os arquivos modificados apos o commit que selecionamos e coloca eles como staged
+
+pelo o que eu entendi ele excluiu os arquivos, que foram adicionados após o commit que selecionamos.
+
+Agora vamos aprender um comando que nos apresenta um histórico completo de commits
+
+ git reflog
+
+Agora iremos tirar um arquivo da area staged, usamos o comando
+
+ git reset nome-do-arquivo
+
+outra forma é fazer o seguinte comando
+
+ git restore --staged nome-do-arquivo
+
+Fim da aula

@@ -1,0 +1,181 @@
+Instrutora: Elidiane 
+
+Trabalhando com branches - criando, mesclando, deletando e tratando conflitos.
+
+De maneira simplista, uma Branch (em tradução, "Ramo"), é uma ramificação do seu projeto.
+
+é um ponteiro móvel para um commit no histórico do repositório;
+
+Quando você cria uma nova branch a partir de outra existente, a nova se inicia apontando para o mesmo commit da branch que estava quando foi criada.
+
+para testar isso uma série de passos foram realizados
+
+primeiro foi feito uma pasta para o propósito de testar os conceitos explicado sobre branch, com o comando
+
+ mkdir trabalhando-com-branches
+
+Depois entrou-se na pasta com o comando
+
+ cd trabalhando-com-branches
+
+E foi iniciado um repositório
+
+ git init
+
+Agora foram criados arquivos e commits da seguinte forma:
+
+comando que cria arquivos
+
+ echo "commit 0 branch main" > commit0-branch-main.txt
+
+comando que adiciona o arquivo no git
+
+ git add .
+
+comando que adiciona um commit
+
+ git commit -m"commit 0"
+
+depois foi executado 
+
+ git log
+
+para verificar os commmit realizados
+
+e o processo se repetiu mais duas vezes
+
+primeira vez 
+
+comando que cria arquivos
+
+ echo "commit 1 branch main" > commit1-branch-main.txt
+
+comando que adiciona o arquivo no git
+
+ git add .
+
+comando que adiciona um commit
+
+ git commit -m"commit 1"
+
+depois foi executado 
+
+ git log
+
+para verificar os commmit realizados
+
+segunda vez
+
+comando que cria arquivos
+
+ echo "commit 2 branch main" > commit2-branch-main.txt
+
+comando que adiciona o arquivo no git
+
+ git add .
+
+comando que adiciona um commit
+
+ git commit -m"commit 2"
+
+depois foi executado 
+
+ git log
+
+para verificar os commmit realizados
+
+agora foi criado uma branch nova com o comando
+
+ git checkout -b teste
+
+Foi realizado o mesmo passo anterior mas agora para gerar arquivos nessa nova branch
+
+comando que cria arquivos
+
+ echo "commit 3 branch teste" > commit3-branch-teste.txt
+
+comando que adiciona o arquivo no git
+
+ git add .
+
+comando que adiciona um commit
+
+ git commit -m"commit 3"
+
+depois foi executado 
+
+ git log
+
+para verificar os commmit realizados
+
+para retornar a branch main usamos o comando
+
+git checkout main
+
+Para visualizar o último commit de cada branch basta usar o comando 
+
+ git branch -v
+
+Para poder trazer as alterações realizadas na branch teste para a branch main usamos o comando
+
+ git merge branch-que-desejamos-fundir-com-a-main
+
+no caso
+
+ git merge teste
+
+agora com essa fusão a branch teste ficou inútil e podemos excluir ela, mas antes vamos aprender um comando para listar nossas branch
+
+ git branch
+
+Para excluir uma branch usamos o comando 
+
+ git branch -d teste
+
+Iremos aprender sobre o conflito de merge
+
+primeiro de tudo criamos um repositório remoto com um readme e um comentário para registrar o entendimento de conflitos
+
+depois clonamos esse repositório remoto na máquina localmente com o comando
+
+ git clone url-do-repositório-remoto
+
+dai alteramos nosso readme localmente, usei o editor de texto nano
+
+ nano readme.md
+
+salvei as alterações com o comando 
+
+ git add .
+
+coloquei um commit 
+
+ git commit -m"descrição da mudança"
+
+e a partir daí realizei mudanças no github para simular que um colega de trabalho atualizou o repositório remoto.
+
+daí tentei enviar a mudança local com o comando
+
+ git push origin main
+
+Obviamente ele foi rejeitado então ciente que a rejeição ocorreu por mudanças do repositório remoto atualizei o meu repositório local com o comando
+
+ git pull origin main
+
+abri o arquivo readme com o editor de texto nano
+
+ nano readme.md
+
+foi possível ver o conflito e escolher o que manter
+
+depois salvei o arquivo com a escolha que eu realizei e vou salvar e enviar o arquivo com os comandos 
+
+git add .
+
+git commit -m"descrição"
+
+git push origin main
+
+Pronto meu último commit feita no repositório local depois do conflito foi salva no repositório remoto.
+
+Fim da aula.

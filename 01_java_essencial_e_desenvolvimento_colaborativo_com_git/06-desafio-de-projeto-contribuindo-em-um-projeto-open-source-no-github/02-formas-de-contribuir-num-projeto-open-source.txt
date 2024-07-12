@@ -1,0 +1,42 @@
+Instrutora: Elidiane
+
+Formas de contribuir num projeto open source
+
+O que é um projeto open source?
+
+é um projeto de código aberto, livre para ser utilizado, modificado e distribuído. Alguns exemplos são:
+
+Linux, sob a licença GNU General Public Licence (GPL);
+
+Roadmaps Dio, sob a licença MIT License (MIT).
+
+Formas de contribuir em um projeto open source
+
+- relatar algum problema ou bug;
+- sugerir melhorias ou adição de novos recursos;
+- escrever ou atualizar a documentação;
+- contribuir com o código;
+- divulgar e/ou doar.
+
+Hands On!
+
+repositório base do desafio
+
+https://github.com/digitalinnovationone/dio-lab-open-source/issues
+
+iremos acessar as issues
+
+segue o link do guia de contribuição de issues
+https://github.com/digitalinnovationone/dio-lab-open-source/blob/d2ce5282b94789e2455f07720e8919ee34c4e8ab/CONTRIBUTING.md
+
+iremos enviar nosso desafio do lab no diretório community
+
+Estamos aprendendo sobre como criar uma issues.
+
+Essa sugestão o responsável pelo repositório pode responder com um comentário e pode delegar essa tarefa para quem ela quiser, inclusive para o autor da issue.
+
+Primeiro para resolver um problema abra ele no issues, caso em comum acordo aceitem sua sugestão é possível através de uma pull request resolver isso.
+
+na proxima aula iremos ver como desenvolver uma contribuição
+
+Fim da aula

@@ -1,0 +1,38 @@
+Um código java pode ser escrito em um editor de texto, porém usar as IDEs traz um ganho de produtividade, esses são os beneficios proporcionado pelas IDEs:
+
+Acelera a escrito com Auto-complite ou Intellisense
+
+formatação de palavras e bloco de códigos
+
+Análise de erro de sintaxe
+
+Compilação de programas
+
+Depuração (acompanhamento) de execução do programa.
+
+AS IDEs mais utilizadas do mercado
+
+Eclipse 
+Comum em ambientes corporativos pelo design simples e para trabalhar com Java Swing.
+
+IntelliJ IDEA
+Uma IDE incrivel porém possui componentes pago. 
+
+Visual studio code
+Desenvolvido pela Microsoft, também muito utilizado para outras linguagem.
+
+Apache NetBeans IDE
+Utilizado mais em ambiente em acadêmico.
+
+Para quem for usar o eclipse entender esses conceitos na ferramenta
+
+Entender o que é um workspace
+Saber definir a JDK na IDE
+Criar / abrir um projeto Java
+Criar / importar um projeto Maven 
+Conhecer os principais atalhos da IDE
+Code Snippet
+Executar / Depurar nosso programa
+
+Maven, é uma ferramenta de automação de compilação utilizada primariamente em projetos Java, mas hoje também é utilizada para construir e gerenciar projetos escritos em C#, Ruby, Scala e outras linguagens.
+
