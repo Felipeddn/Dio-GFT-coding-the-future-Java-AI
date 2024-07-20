@@ -13,7 +13,7 @@ Como identificar entre declaração de variáveis e métodos em nosso programa? 
 ````Java
 //Estrutura 
 
-Tipo NomeBemDefinido = Atribuição (opcional em alguns casos)
+Tipo NomeBemDefinido = Atribuição (a atribuição é opcional em alguns casos)
 
 //Exemplo
 
@@ -24,3 +24,19 @@ Dog spike; //Observe que aqui a variável spike não tem valor é...
 
 // Dog é uma classe.
 ````
+* Declarando métodos em Java segue uma estrutura bem simples:
+
+````java
+//Estrutura
+
+TipoRetorno NomeObjetivoNoInfinito Parametro(s)
+
+//Exemplo
+
+int somar(int numeroUm, int numero2)
+
+String formatarCep (long cep)
+
+````
+
+Fim da aula
