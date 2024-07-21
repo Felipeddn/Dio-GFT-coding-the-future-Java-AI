@@ -17,9 +17,9 @@ public class MinhaClasse {
 
        //sobre métodos
        String primeiroNome = "Felipe";
-       String segundoNome = "Dantas"
+       String segundoNome = "Dantas";
 
-       String nomeCompleto = nomeCompleto (primeiroNome, segundoNome)
+       String nomeCompleto = nomeCompleto (primeiroNome, segundoNome);
 
       System.out.println(nomeCompleto);
 }
