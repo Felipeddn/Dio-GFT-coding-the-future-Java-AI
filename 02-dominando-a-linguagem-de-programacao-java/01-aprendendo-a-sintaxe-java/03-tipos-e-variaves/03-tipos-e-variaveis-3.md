@@ -26,3 +26,15 @@ Os tipos primitivos que podem conter partes fracionárias podem ser representado
 float | 4 bytes | -3,4028E + 38 | 3,4028E + 38 
 double | 8 bytes | -1,7976E + 308 | 1,7976E + 308
 
+Em relação aos dois tipos de pontos flutuantes apresentados, o tipo **double** são mais utilizados, pela garantia da precisado mesmo.
+
+Apesar de o tipo **float** ocupar metade da memória consumida do que o tipo double, ele é menos utilizado. Ele sofre de uma limitação que compromete seu uso em determinadas situações: somente mantém uma precisão decimal entre 6 e 7 dígitos.
+
+atualmente, com os computadores modernos, se tornou desnecessário utilizar os tipos **short** e **byte**, pois não precisamos nos preocupar tanto assim com o espaço de memória reduzido.
+
+Da mesma forma, dificilmente utilizaremos o tipo **long**, pois não é tão comum trabalharmos com valores tão grandes.
+
+Portanto, para representar números, na grande maioria das vezes utilizamos o tipo **int** para representar números inteiros ou **double** para representar números fracionados.
+
+O ponto mais relevante em compreender a definição dos tipos de dados é o momento da definição do tipo para uma variável. **Qual tipo de dados eu utilizaria para determinar a idade de uma pessoa ou salário de um funcionário?**
+
