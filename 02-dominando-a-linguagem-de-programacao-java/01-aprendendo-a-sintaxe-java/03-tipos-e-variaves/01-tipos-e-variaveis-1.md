@@ -27,4 +27,4 @@ Iremos explorar os tipos de dados numéricos inteiros, numéricos decimais, lóg
 * Objetos
 * Diferença entre variável e constante
 
-* 
+Fim da aula
