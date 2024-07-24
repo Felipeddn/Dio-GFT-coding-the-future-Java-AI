@@ -46,3 +46,38 @@ Date dataDeNascimento = new Date();
 
 O operador aritmético é utilizado para realizar operações matemáticas entre valores numéricos, podendo se tornar ou não uma expressão mais complexa.
 
+Os operadores são: + (adição), - (subtração), * (multiplicação) e / (divisão).
+
+```java
+//classe operadores.java
+
+double soma = 10.5 + 15.7;
+int subtracao = 113 - 25;
+int multiplicacao = 20 * 7;
+int divisao = 15 / 3;
+int modulo = 18 % 3;
+double resultado = (10 * 7) + (20 / 4);
+```
+
+ATENÇÃO! o operador de adição (+), quando utilizado em variáveis do tipo texto, realizará a "concatenação de textos".
+
+```java
+// classe operadores.java
+String nomeCompleto = "LINGUAGEM " + "JAVA";
+```
+
+// qual o resultado das expressões abaixo?
+String concatenacao = "?";
+
+concatenacao = 1+1+1+"1";
+
+concatenacao = 1+"1"+1+1;
+
+concatenacao = 1+"1"+1+"1";
+
+concatenacao = "1"+1+1+1;
+
+concatenacao = "1"+(1+1+1);
+
+
+
