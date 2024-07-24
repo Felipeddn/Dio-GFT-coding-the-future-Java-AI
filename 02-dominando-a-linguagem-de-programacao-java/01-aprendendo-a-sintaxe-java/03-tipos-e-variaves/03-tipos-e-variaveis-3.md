@@ -38,3 +38,12 @@ Portanto, para representar números, na grande maioria das vezes utilizamos o ti
 
 O ponto mais relevante em compreender a definição dos tipos de dados é o momento da definição do tipo para uma variável. **Qual tipo de dados eu utilizaria para determinar a idade de uma pessoa ou salário de um funcionário?**
 
+para a **idade** uma variável do tipo **short** daria conta e dependendo do escopo da idade até uma variável do tipo **byte** atenderia, mas é comum usarem variáveis do tipo **int**.
+
+Para uma variável representar um salário definir ela do tipo **float** ja serviria porém é comum usarem variáveis do tipo **double** para valores com casas decimais
+
+## Declaração de Variável 
+
+Variável é uma identificação de um espaço em memória utilizado pelo nosso programa. Seguindo as convenções em linguagem de programação, toda variável é composta por: tipo de dados + identificação + Valor atribuído.
+
+A estrutura padrão para se declarar uma variável sempre é:
