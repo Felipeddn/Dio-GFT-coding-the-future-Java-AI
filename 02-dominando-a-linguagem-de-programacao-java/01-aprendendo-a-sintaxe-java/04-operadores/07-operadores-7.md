@@ -14,4 +14,4 @@ Os operadores lógicos representam o recurso que nos permite criar expressões l
 
 no arquivo operadores na parte relacionada a aula 7 é possível verificar a prática dos conceitos relacionados a esses operadores lógicos.
 
-
+Fim da aula.
