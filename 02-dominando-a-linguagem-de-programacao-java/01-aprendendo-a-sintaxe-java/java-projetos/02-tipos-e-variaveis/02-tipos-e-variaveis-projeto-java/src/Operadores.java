@@ -58,6 +58,7 @@ public class Operadores {
     //aula operadores 4
 
     //repetição
+    /*
     int numero = 5;
 
     numero = numero + 2;
@@ -86,5 +87,109 @@ public class Operadores {
 
     // O mesmo vale para quando eu quiser decrementar
     System.out.println(numero--);
+
+    //booleanos
+    boolean variavel = true;
+
+    //A exclamação nega o valor da variável
+    System.out.println(!variavel);
+    //isso foi uma operação que não mudou o valor da variável, para que ocorra uma mudança na variável esse valor tem que ser atribuido à variável.
+
+    System.out.println(variavel);
+
+    variavel = !variavel;
+
+    System.out.println(variavel);
+     */
+
+    // aula 5 operadores ternario
+    /*
+    int a, b;
+
+    a = 5;
+    b = 6;
+    */
+    /*
+    String resultado = "";
+
+    // EXEMPLO CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE
+    
+    if(a==b)
+      resultado = "verdadeiro";
+    else
+      resultado = "falso";
+     */
+
+    /*
+    String resultado = a==b? "verdadeiro":"falso";
+
+    System.out.println(resultado);
+    */
+    /*
+    a = 6;    
+
+    String resultado = a==b? "verdadeiro":"falso";
+
+    System.out.println(resultado);
+    */
+
+    // aula 6 operadores relacionais
+    /*
+    int numero1 = 1;
+    int numero2 = 2;
+
+    boolean simNao = numero1 == numero2;
+
+    System.out.println("numero1 é igual a numero2? " + simNao);
+
+    simNao = numero1 != numero2;
+
+    System.out.println("numero1 é diferente de numero2? " + simNao);
+
+    simNao = numero1 < numero2;
+
+    System.out.println("numero1 é maior que numero2? " + simNao);
+
+    if (numero1 < numero2){
+      System.out.println("A nossa condição é verdadeira!");
+    }
+
+    if (numero1 == numero2){
+      System.out.println("A nossa condição é verdadeira!");
+    } else {
+      System.out.println("a nossa condição não é verdadeira!");
+    }
+
+    String nomeUm = "Gleyson";
+    String nomeDois = "Gleyson";
+
+    System.out.println(nomeUm == nomeDois);
+
+    String nomeTres = new String("Gleyson");
+
+    System.out.println(nomeUm == nomeTres);
+
+    */    
+
+    //os objetos não foram iguais por conta de um conceito de Java que diferencia steak do rip
+
+    /*
+     * uma variável feita através da classe String é armazenada na memória, porém um objeto feito através classe tem um comportamento um pouco diferente.
+     */
+
+     //Um método que pode fazer uma comparação melhor é o método .equals(), então para comparar conteúdo de objetos o mais adequado é usar o método .equals().
+
+     //System.out.println(nomeUm.equals(nomeTres));
+
+     //Aula 7 operadores lógicos
+
+    boolean condicao1 = true;
+    boolean condicao2 = false;
+
+    if (condicao1 && condicao2){
+      System.out.println("As duas condições são verdadeiras");
+    }
+    System.out.println("Fim");
+
   }
 }
