@@ -79,5 +79,10 @@ concatenacao = "1"+1+1+1;
 
 concatenacao = "1"+(1+1+1);
 
+Para controlar a execução das atribuições acimas fizemos o uso do Debug que é a definição de um ponto de interrupção onde o programa para de executar automáticamente e podemos controlar a execução linha a linha usando o comando **contornar** no VS Code.
 
+O resultado para as operações acima demonstra que a partir do momento que o Java identifica um caractere ele passa a realizar concatenação e para de realizar operações aritméticas.
 
+Na opção com uso do parenteses ele trabalhou a expressão dentro do parenteses e concatenou o resultado desses parenteses com o caractere isso é uma situação bem interessante.
+
+Fim da aula.
