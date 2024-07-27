@@ -86,6 +86,54 @@ A linguagem Java possui 52 palavras reservadas. Todas essas palavras classificad
 
 31. **default**: executa esse bloco de código caso nenhum dos testes de switch- case seja verdadeiro.
 
-32. **do**: executa um bloco de código uma vez, e depoiis 
+32. **do**: executa um bloco de código uma vez, e então realiza um teste em conjunto com o **while** para determinar se o bloco deverá ser executado novamente.
 
+33. **else**: executa um bloco de código alternativo caso o teste "**if**" seja falso.
 
+34. **for**: usado para realizar um loop condicional de um bloco de código.
+
+35. **if**: usado para realizar um teste lógico de verdadeiro ou falso.
+
+36. **instanceof**: determina se um objeto é uma instância de determinada classe, superclasse ou interface.
+
+37. **return**: retorna um método sem executar qualquer código, que venha depois desta linha (também pode retornar uma variável).
+
+38. **switch**: indica a variável a ser comparada nas expressões case.
+
+39. **while**: executa um bloco de código repetidamente enquanto a condição for verdadeira.
+
+### Tratamento de erros
+
+40. **<span style="color=red">assert</span>**: testa uma expressão condicional, para verificar uma suposição do programador.
+
+41. **catch**: declara o bloco de código usado para tratar uma exceção.
+
+42. **finally**: bloco de códigos, Após um try-catch, que é executado independente do fluxo de programa seguido ao lidar com uma exceção.
+
+43. **throw**: usado para passar uma exceção para o método que o chamou.
+
+44. **throws**: indica que um método pode passar uma exceção para o método que o chamou.
+
+45. **try**: bloco de código que tentará ser executado, mas que pode causar uma exceção.
+
+## Variáveis de referência 
+
+46. **super**: refere-se a superclasse imediata.
+
+47. **this**: refere-se a instância atual do objeto.
+
+### Palavras reservadas não utilizadas
+
+48. **const**: Não utilize para declarar constantes, use public static final.
+
+49. **goto**: não implementada na linguagem Java, por ser considerada prejudicial.
+
+### Literais reservados 
+
+50. **null**
+
+51. **true**
+
+52. **false**
+
+De acordo com o Java Language Specification, **null**, **true** e **false** são tecnicamente chamados de valores literias, e não keywords. Se você tentar criar algum identificador com estes valores, você também terá um erro de compilação.
