@@ -72,6 +72,20 @@ A linguagem Java possui 52 palavras reservadas. Todas essas palavras classificad
 
 25. **synchronized**: indica que um método só pode ser acessado por uma thread de cada vez.
 
-26. 
+26. **transient**: impede a serialização de campos.
+
+27. **<span style="color=red">volatile</span>**: indica que uma variável pode ser alterada durante o uso de threads.
+
+### Controle de fluxo dentro de um bloco de código 
+
+28. **break**: sai do bloco de código em que ele está.
+
+29. **case**: executa um bloco de código dependendo do teste do switch.
+
+30. **continue**: pula a execução do código que viria após essa linha e vai para a próxima passagem do loop.
+
+31. **default**: executa esse bloco de código caso nenhum dos testes de switch- case seja verdadeiro.
+
+32. **do**: executa um bloco de código uma vez, e depoiis 
 
 
