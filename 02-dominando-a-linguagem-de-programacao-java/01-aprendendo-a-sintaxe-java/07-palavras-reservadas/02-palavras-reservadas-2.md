@@ -86,6 +86,26 @@ A linguagem Java possui 52 palavras reservadas. Todas essas palavras classificad
 
 31. **default**: executa esse bloco de código caso nenhum dos testes de switch- case seja verdadeiro.
 
-32. **do**: executa um bloco de código uma vez, e depoiis 
+32. **do**: executa um bloco de código uma vez, e então realiza um teste em conjunto com o while para determinar se o bloco deverá ser executado novamente.
+
+33. **else**: executa um bloce de código alternativo caso o teste "**if**" seja falso.
+
+34. **for**: usado para realizar um loop condicional de um bloco de código.
+
+35. **if**: usado para realizar um teste lógico de verdadeiro ou falso.
+
+36. **instanceof**: determina se um objeto é uma instância de determinada classe, superclasse ou interfface.
+
+37. **return**: retorna um método sem executar qualquer código, que venha depois desta linha (também pode retornar uma variável).
+
+38. **switch**: indica a variável a ser comparada nas expressões case.
+
+39. **while**: executa um bloco de código repetidamente enquanto a condição for verdadeira.
+
+### Tratamento de erros 
+
+**<span style="color=red">assert</span>**: testa uma expressão condicional, para verificar uma suposição do programador.
+
+**catch**: declara o bloco de código usado para tratar uma exceção.
 
 
