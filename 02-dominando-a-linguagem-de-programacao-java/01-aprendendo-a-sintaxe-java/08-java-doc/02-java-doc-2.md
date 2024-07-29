@@ -32,7 +32,7 @@ Mas e quais as informações que obtemos através de classes documentadas na lin
 Abaixo iremos ilustrar a classe Calculadora com um exemplo de documentação destacando as **tags** mais utilizadas.
 
 ```java
-/*
+/**
 * <h1>Calculadora</h1>
 * A calculadora realiza operações matemáticas entre números
 * <p>
@@ -45,7 +45,57 @@ Abaixo iremos ilustrar a classe Calculadora com um exemplo de documentação des
 
 public class Calculadora{
     /**
-    * Este método 
+    * Este método é utilizado para somar dois números inteiros
+    * @param numeroUM este é o primeiro parâmetro do método 
+    * @param numeroDois este é o segundo parâmetro do método
+    * @return int o resultado deste método é a soma dos dois números
+    */
+    public int somar (int numeroUm, int numeroDois){
+        return numeroUm + numeroDois;
+    }
 }
 ```
 
+## Tipos de comentários
+
+```java
+
+// Uma linha
+
+//Olá, eu sou um comentário em uma única linha
+
+//Multiplas linhas
+/* Olá,
+ * Eu sou um comentário
+ * que posso ser mais detalhado
+ * quando necessário
+ */
+
+//Documentação
+/**
+ * Estas duas estrelinhas acima
+ * é para identificar que você 
+ * pretende elaborar um comentário
+ * a nível de documentação.
+ * Que incrível !!!
+ */
+
+```
+
+Um comentário não possui finalidade de **amenizar** um algoritmo não estruturado conforme as convenções da linguagem.
+
+## Javadoc
+
+**Javadoc** é um gerador de documentação criado pela <span style="color blue">Sun Microsystems</span> para documentar <span style="color blue">API</span> dos programas em <span style="color blue">Java</span>, a partir do <span style="color blue">código-fonte</span>. O resultado é expresso em <span style="color blue">HTML</span>. É constituído, basicamente, por algumas marcações muito simples inseridas nos comentários do programa.
+
+Este sistema é o padrão de documentação de classes em Java, e muitas <span style="color blue">IDEs</span> desta linguagem irão automáticamente gerar um Javadoc em <span style="color blue">HTML</span>.
+
+Criando nossa documentação no formato html para disponibilizar via web.
+
+No **terminal** execute o comando abaixo dentro do diretório do projeto.
+
+javadoc -encoding UTF -8 -docencoding ISO-8859-1 -d ..//docs src/*.java
+
+Esse comando acima é incrivel simplesmente amei!
+
+Fim da aula
