@@ -67,3 +67,35 @@ public class SistemaMedida {
     }
 }
 ```
+Observe que a nível de sintaxe não tivemos nenhum ganho quanto a redução de códigos e ainda tivemos mais uma preocupação em informar a palavra break em cada alternativa.
+
+Porém um cenário que poderíamos adequar o uso de switch/case para melhorar nosso algoritmo seria conforme a ilustração abaixo: 
+
+Imagina que fomos requisitados a criar um sistema de plano telefônico onde:
+
+* O sistema terá 03 planos: BASIC, MIDIA, TURBO
+* BASIC: 100 minutos de ligação
+* MIDIA: 100 minutos de ligação + whats e instagram grátis
+* TURBO: 100 minutos de ligação + whats e instagram grátis + 5GB Youtube.
+
+```java
+
+//modo condicional convencional
+public class PlanoOperadora {
+    public static void main(String[] args){
+        String plano ="M"; //M /T
+
+        if(escolha == "B"){
+            System.out.println("100 minutos de ligação");
+        } else if(escolha == "M"){
+            System.out.println("100 minutos de ligação");
+            System.out.println("whats app e instagram grátis");
+        } else if(escolha == "T"){
+            System.out.println("100 minutos de ligação");
+            System.out.println("whats app e instagram grátis");
+            System.out.println("5GB de Youtube");
+        }
+    }
+}
+
+```

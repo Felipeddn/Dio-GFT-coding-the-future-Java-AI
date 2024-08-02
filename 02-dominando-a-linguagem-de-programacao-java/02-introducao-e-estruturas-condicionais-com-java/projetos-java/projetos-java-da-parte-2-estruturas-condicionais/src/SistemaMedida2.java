@@ -5,7 +5,7 @@ public class SistemaMedida2 {
         
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Qual o tamanho?");
-            String sigla = scanner.next();
+            String sigla = scanner.next();//.toUpperCase();
             sigla = sigla.toUpperCase();
 
             switch (sigla) {
@@ -23,7 +23,6 @@ public class SistemaMedida2 {
             
                 default:
                     System.out.println("INDETERMINADO");
-                    break;
             }
         }
     }
