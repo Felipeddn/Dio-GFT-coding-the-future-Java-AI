@@ -8,18 +8,21 @@ public class PlanoOperadora {
             String escolha = scanner.next();
             escolha = escolha.toUpperCase();
 
-            if(escolha == "B"){
+            //primeira tentativa
+            /* */
+            if(escolha.equals("B")){
                 System.out.println("100 minutos de ligação");
-            } else if(escolha == "M"){
+            } else if(escolha.equals("M") ){
                 System.out.println("100 minutos de ligação");
                 System.out.println("whats app e instagram grátis");
-            } else if(escolha == "T"){
+            } else if(escolha.equals("T")){
                 System.out.println("100 minutos de ligação");
                 System.out.println("whats app e instagram grátis");
                 System.out.println("5GB de Youtube");
             } else {
                 System.out.println("Opção invalida, fim do programa!");
             }
+            
         }
 
     }
