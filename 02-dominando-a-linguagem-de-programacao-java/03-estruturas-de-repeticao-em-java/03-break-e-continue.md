@@ -27,3 +27,8 @@ public class ExemploBreakContinue {
 
 ``` 
 
+No caso do break o código a partir da condição que o break é considerado encerra.
+
+No caso do continue o código que atende a condição não é executado e a interação volta após esse código desconsiderado.
+
+fim da aula.
