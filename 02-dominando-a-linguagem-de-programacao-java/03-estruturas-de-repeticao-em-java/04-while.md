@@ -51,3 +51,4 @@ private static double valorAleatorio(){
     return ThreadLocalRandom.current().nextDouble(2, 8);
 }
 ```
+Fim da aula
